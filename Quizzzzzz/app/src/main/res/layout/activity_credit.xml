@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/credit_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreditActivity">
+
+    <TextView
+        android:id="@+id/textView_credit3"
+        android:layout_width="0dp"
+        android:text="0"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_diamon_30"
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_border"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_border"
+        app:layout_constraintStart_toStartOf="@+id/imageView_border"
+        app:layout_constraintTop_toTopOf="@+id/imageView_border" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/action_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:onClick="luuGiaTri"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_user_70px" />
+
+    <ImageView
+        android:id="@+id/imageView_border"
+        android:layout_width="131dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/border" />
+
+    <TextView
+        android:id="@+id/textView_mua_credit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Mua Credit"
+        android:textAlignment="center"
+        android:textColor="#FFFF00"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_500"
+        android:layout_width="152dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="@android:dimen/thumbnail_height"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#EE9A4D"
+        android:drawableBottom="@drawable/icon_diamond_100"
+        android:text="500"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_3000"
+        android:layout_width="152dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#EE9A4D"
+        android:drawableBottom="@drawable/icon_diamond_100"
+        android:text="3000"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_50" />
+
+    <Button
+        android:id="@+id/button_5000"
+        android:layout_width="152dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#EE9A4D"
+        android:drawableBottom="@drawable/icon_diamond_100"
+        android:text="5000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_95" />
+
+    <TextView
+        android:id="@+id/textView_290"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="8dp"
+        android:text="$290"
+        android:textColor="#C0C0C0"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_3000" />
+
+    <TextView
+        android:id="@+id/textView_450"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="58dp"
+        android:text="$450"
+
+        android:textColor="#C0C0C0"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_5000" />
+
+    <Button
+        android:id="@+id/button_1000"
+        android:layout_width="152dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="@android:dimen/thumbnail_height"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#EE9A4D"
+        android:drawableBottom="@drawable/icon_diamond_100"
+        android:text="1000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@android:dimen/notification_large_icon_width"
+        android:layout_marginTop="8dp"
+        android:text="$50"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_500"
+        android:textColor="#C0C0C0"/>
+
+    <TextView
+        android:id="@+id/textView_95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@android:dimen/notification_large_icon_width"
+        android:text="$95"
+        android:textColor="#C0C0C0"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_1000" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

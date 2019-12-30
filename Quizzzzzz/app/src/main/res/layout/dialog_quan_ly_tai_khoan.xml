@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Quizzzz"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#41A317"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:text="Lựa chọn thao tác !!!"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp">
+        <Button
+            android:id="@+id/btn_dangxuat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng xuất"
+            android:background="@drawable/button_border"
+            android:textColor="#FF0000"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/btn_quanlyTK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quản lý tài khoản"
+            android:background="@drawable/button_border"
+            android:textColor="#0000FF"/>
+    </LinearLayout>
+</LinearLayout>

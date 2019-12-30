@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quizzzzzz</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="username">Nhập username</string>
+    <string name="password">Nhập password</string>
+    <string name="field">Chọn lĩnh lực</string>
+    <string name="leaderboard">Bảng xếp hạng</string>
+    <string name="play">Chơi ngay</string>
+    <string name="supervisor_profile_choose_image_title">Lựa chọn tác vụ</string>
+</resources>

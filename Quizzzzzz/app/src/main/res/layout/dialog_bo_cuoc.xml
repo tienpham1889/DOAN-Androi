@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_chu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Quizzzz"
+        android:textColor="#41A317"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:text="Bạn có muốn dừng cuộc chơi?"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp">
+        <Button
+            android:id="@+id/btn_dung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dừng"
+            android:background="@drawable/button_border"
+            android:textColor="#FF0000"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/btn_tiep_tuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiếp tục"
+            android:background="@drawable/button_border"
+            android:textColor="#0000FF"/>
+    </LinearLayout>
+</LinearLayout>
+
